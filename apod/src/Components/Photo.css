@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+img {
+    height: 700px;
+    width: 700px;
+}
+
+h3 {
+    font-family: "Share Tech Mono";
+    font-size: 2rem;
+}
+p {
+    font-family:"Roboto Mono";
+    font-size: 1.2rem;
+}
