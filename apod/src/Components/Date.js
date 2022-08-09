@@ -1,6 +1,6 @@
 import React from "react";
 
-const DateInput = props => (
+const Date = props => (
     <form class="pt-5 d-flex justify-content-center flex-nowrap" onSubmit={props.changeDate}>
       Enter a date (YYYY-MM-DD) or Submit for today's picture 
       <input class="mx-3" />
@@ -8,4 +8,4 @@ const DateInput = props => (
     </form>
   );
   
-export default DateInput;
+export default Date;
