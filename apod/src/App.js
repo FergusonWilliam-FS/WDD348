@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./Components/Header";
 import DateInput from "./Components/Date";
 import Photo from "./Components/Photo";
+import MyNavBar from "./Components/MyNavbar";
 
 class App extends Component {
   state = {
@@ -26,6 +27,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <MyNavBar />
         <DateInput changeDate={this.changeDate} />
         <Photo photo={this.state.photo} />
       </div>
