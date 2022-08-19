@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Header from "./Components/Header";
-import DateInput from "./Components/Date";
 import Photo from "./Components/Photo";
 import MyNavBar from "./Components/MyNavbar";
 import { Outlet, Link } from "react-router-dom";
+import DateForm from "./Components/DateForm";
 
 
 class App extends Component {
@@ -12,17 +12,26 @@ class App extends Component {
     photo: ""
   };
 
-  changeDate = e => {
-    e.preventDefault();
-    let dateFromInput = e.target[0].value;
-    this.setState({ date: dateFromInput });
-    this.getPhoto(dateFromInput);
+  makeDateString = (d)=>{
+    let dString = d.getFullYear() + "-"
+    dString +=  ('0' + (d.getMonth() + 1)).slice(-2) + "-"
+    dString += ('0' + d.getDate()).slice(-2);
+    return dString;
+  }
+
+  componentDidMount = ()=>{
+    this.changeDate(this.makeDateString(new Date()))
+  }
+
+  changeDate = val => {
+    this.setState({ date: val });
+    this.getPhoto(val);
   };
 
  
 
   getPhoto = date => {
-    fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=EbInQmEzXObNwCxF9gY8llrfdKuoLkH2ZWwOjS2G`)
+    fetch(`https://api.nasa.gov/planetary/apod?date=${date}&api_key=zsxaucLDeTrOFprbfAAVGSNjUoc5n9Rg84R5aFVI`)
       .then(response => response.json())
       .then(photoData => this.setState({ photo: photoData }));
   };
@@ -32,7 +41,8 @@ class App extends Component {
       <div>
         <Header />
         <MyNavBar />
-        <DateInput changeDate={this.changeDate} />
+
+        <DateForm dateChange={this.changeDate} />
         <Photo photo={this.state.photo} />
         <Link to="/Help">Help</Link> |{" "}
         <Link to="/About">About</Link>
