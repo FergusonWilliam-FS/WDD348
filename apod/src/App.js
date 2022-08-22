@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "./Components/Header";
 import Photo from "./Components/Photo";
 import MyNavBar from "./Components/MyNavbar";
-import { Outlet, Link } from "react-router-dom";
 import DateForm from "./Components/DateForm";
 
 
@@ -41,12 +40,8 @@ class App extends Component {
       <div>
         <Header />
         <MyNavBar />
-
         <DateForm dateChange={this.changeDate} />
         <Photo photo={this.state.photo} />
-        <Link to="/Help">Help</Link> |{" "}
-        <Link to="/About">About</Link>
-        <Outlet />
       </div>
     );
   }

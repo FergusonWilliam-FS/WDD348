@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 
 const MyNavBar = () => (
     <div>
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" className="navbar navbar-expand-lg">
             {/* This is how you set up links for react-router in Bootstrap  */}
             <Container>
                 <Link to="/" className="navbar-brand text-decoration-none">APOD</Link>
