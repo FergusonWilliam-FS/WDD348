@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/css/main.184848c3.css",
-    "main.js": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/js/main.dabbd403.js",
-    "static/js/787.d430fe5a.chunk.js": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/js/787.d430fe5a.chunk.js",
-    "index.html": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/index.html",
-    "main.184848c3.css.map": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/css/main.184848c3.css.map",
-    "main.dabbd403.js.map": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/js/main.dabbd403.js.map",
-    "787.d430fe5a.chunk.js.map": "/FergusonWilliam-FS/WDD348/apod.io/nasa-apod/static/js/787.d430fe5a.chunk.js.map"
+    "main.css": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/css/main.184848c3.css",
+    "main.js": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/js/main.b66dc88f.js",
+    "static/js/787.d430fe5a.chunk.js": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/js/787.d430fe5a.chunk.js",
+    "index.html": "/FergusonWilliam-FS/WDD348.io/nasa-apod/index.html",
+    "main.184848c3.css.map": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/css/main.184848c3.css.map",
+    "main.b66dc88f.js.map": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/js/main.b66dc88f.js.map",
+    "787.d430fe5a.chunk.js.map": "/FergusonWilliam-FS/WDD348.io/nasa-apod/static/js/787.d430fe5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.184848c3.css",
-    "static/js/main.dabbd403.js"
+    "static/js/main.b66dc88f.js"
   ]
 }
