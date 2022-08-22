@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FergusonWilliam-FS/WDD348/apod.io/static/css/main.184848c3.css",
-    "main.js": "/FergusonWilliam-FS/WDD348/apod.io/static/js/main.efa02af7.js",
-    "static/js/787.d430fe5a.chunk.js": "/FergusonWilliam-FS/WDD348/apod.io/static/js/787.d430fe5a.chunk.js",
-    "index.html": "/FergusonWilliam-FS/WDD348/apod.io/index.html",
-    "main.184848c3.css.map": "/FergusonWilliam-FS/WDD348/apod.io/static/css/main.184848c3.css.map",
-    "main.efa02af7.js.map": "/FergusonWilliam-FS/WDD348/apod.io/static/js/main.efa02af7.js.map",
-    "787.d430fe5a.chunk.js.map": "/FergusonWilliam-FS/WDD348/apod.io/static/js/787.d430fe5a.chunk.js.map"
+    "main.css": "/FergusonWilliam-FS.io/WDD348/apod/static/css/main.184848c3.css",
+    "main.js": "/FergusonWilliam-FS.io/WDD348/apod/static/js/main.955eadee.js",
+    "static/js/787.d430fe5a.chunk.js": "/FergusonWilliam-FS.io/WDD348/apod/static/js/787.d430fe5a.chunk.js",
+    "index.html": "/FergusonWilliam-FS.io/WDD348/apod/index.html",
+    "main.184848c3.css.map": "/FergusonWilliam-FS.io/WDD348/apod/static/css/main.184848c3.css.map",
+    "main.955eadee.js.map": "/FergusonWilliam-FS.io/WDD348/apod/static/js/main.955eadee.js.map",
+    "787.d430fe5a.chunk.js.map": "/FergusonWilliam-FS.io/WDD348/apod/static/js/787.d430fe5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.184848c3.css",
-    "static/js/main.efa02af7.js"
+    "static/js/main.955eadee.js"
   ]
 }
