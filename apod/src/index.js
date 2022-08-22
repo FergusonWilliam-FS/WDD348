@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,13 +14,13 @@ import About from './Components/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route exact path="/" element={<App />} />
       <Route exact path="/help" element={<Help />} />
       <Route exact path="/about" element={<About />} />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

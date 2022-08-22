@@ -6,8 +6,8 @@ const Help = () => (
     <div>
         <Header />
         <MyNavBar />    
-        <h1 className="py-5">Help</h1>
-        <p className="py-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit, ante quis vestibulum sollicitudin, turpis tellus dapibus purus, sed varius tortor ipsum ac lorem. Aliquam pretium metus sapien. Morbi rutrum et est vitae semper. Phasellus posuere justo a convallis commodo. Fusce tincidunt velit nec turpis malesuada blandit. Vestibulum lobortis, sapien eget ultrices scelerisque, metus mi sollicitudin est, sed volutpat augue mauris at odio. Aenean venenatis luctus arcu quis convallis.</p>
+        <h1 className="p-5">Help</h1>
+        <p className="p-5">Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
     </div>
 );
 
