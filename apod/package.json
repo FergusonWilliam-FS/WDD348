@@ -2,7 +2,7 @@
   "name": "apod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/FergusonWilliam-FS.io/WDD348/",
+  "homepage": "https://fergusonwilliam-fs.github.io/WDD348/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
