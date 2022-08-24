@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FergusonWilliam-FS.io/WDD348/static/css/main.184848c3.css",
-    "main.js": "/FergusonWilliam-FS.io/WDD348/static/js/main.39ff6ee2.js",
-    "static/js/787.d430fe5a.chunk.js": "/FergusonWilliam-FS.io/WDD348/static/js/787.d430fe5a.chunk.js",
-    "index.html": "/FergusonWilliam-FS.io/WDD348/index.html",
-    "main.184848c3.css.map": "/FergusonWilliam-FS.io/WDD348/static/css/main.184848c3.css.map",
-    "main.39ff6ee2.js.map": "/FergusonWilliam-FS.io/WDD348/static/js/main.39ff6ee2.js.map",
-    "787.d430fe5a.chunk.js.map": "/FergusonWilliam-FS.io/WDD348/static/js/787.d430fe5a.chunk.js.map"
+    "main.css": "/WDD348/static/css/main.184848c3.css",
+    "main.js": "/WDD348/static/js/main.25d8f15e.js",
+    "static/js/787.d430fe5a.chunk.js": "/WDD348/static/js/787.d430fe5a.chunk.js",
+    "index.html": "/WDD348/index.html",
+    "main.184848c3.css.map": "/WDD348/static/css/main.184848c3.css.map",
+    "main.25d8f15e.js.map": "/WDD348/static/js/main.25d8f15e.js.map",
+    "787.d430fe5a.chunk.js.map": "/WDD348/static/js/787.d430fe5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.184848c3.css",
-    "static/js/main.39ff6ee2.js"
+    "static/js/main.25d8f15e.js"
   ]
 }
